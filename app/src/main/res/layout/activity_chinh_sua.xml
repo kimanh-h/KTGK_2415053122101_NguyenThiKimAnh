@@ -1,0 +1,33 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText android:id="@+id/ten"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên khoản chi"/>
+
+    <EditText android:id="@+id/tien"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal|numberSigned"
+        android:hint="Số tiền"/>
+
+    <EditText android:id="@+id/ghi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ghi chú"/>
+
+    <Button android:id="@+id/luu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lưu chỉnh sửa"/>
+
+    <Button android:id="@+id/huy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hủy"/>
+</LinearLayout>
